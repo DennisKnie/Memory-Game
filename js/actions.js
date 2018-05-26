@@ -66,7 +66,7 @@ function startGame() {
 	minute = 0;
 	hour = 0;
 	let timer = document.querySelector(".timer");
-	timer.innerHTML = "0 minutes 0 seconds";
+	timer.innerHTML = "0 mins 0 secs";
 	clearInterval(interval);
 }
 
@@ -167,7 +167,7 @@ var interval;
 
 function startTimer () {
 	interval = setInterval(function() {
-		timer.innerHTML = minute + "minutes " + seconds + "seconds";
+		timer.innerHTML = minute + "mins " + seconds + "secs";
 		second++;
 		if(second == 60) {
 			minute++;
