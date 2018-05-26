@@ -59,7 +59,7 @@ function startGame() {
 	counter.innerHTML = moves;
 
 	for (var i = 0; i < stars.length; i++) {
-		stars.[i].style.color = "#FFD700";
+		stars[i].style.color = "#FFD700";
 		stars[i].style.visibility = "visible";
 	}
 	second = 0;
