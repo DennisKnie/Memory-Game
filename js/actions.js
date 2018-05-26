@@ -219,3 +219,4 @@ for (var i = 0; i < cards.length; i++) {
 	card.addEventListener("click", cardOpen);
 	card.addEventListener("click", congratulations);
 };
+
