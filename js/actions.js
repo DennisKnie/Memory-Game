@@ -26,7 +26,7 @@ let closeicon = document.querySelector(".close");
 let modal = document.getElementById("popup1")
 
 // array for opened cards
-var openedCards = [];
+let openedCards = [];
 
 
 // param {array} shuffles cards
@@ -88,7 +88,7 @@ var displayCard = function() {
 };
 
 
-// dd opened cards to list and check if the cards are a match or not
+// opened cards to list and check if the cards are a match or not
 function cardOpen() {
     openedCards.push(this);
     var len = openedCards.length;
